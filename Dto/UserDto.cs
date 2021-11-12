@@ -10,7 +10,6 @@ namespace Population.Dto
         public string LastName { get; set; }
         
         public bool Gender { get; set; }
-
         
         [DataType(DataType.Date)]
         public DateTime Birthday { get; set; }  
